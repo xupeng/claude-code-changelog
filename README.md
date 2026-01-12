@@ -21,26 +21,11 @@
 
 Claude Code 会自动克隆仓库到项目的 `.claude/skills/` 目录。
 
-### 方法二：一键安装
-
-```bash
-# 下载并安装到全局技能目录
-curl -L https://github.com/xupeng/claude-code-changelog/releases/latest/download/claude-code-changelog.skill -o ~/.claude/skills/claude-code-changelog.skill
-```
-
-### 方法三：克隆仓库
+### 方法二：克隆仓库
 
 ```bash
 git clone https://github.com/xupeng/claude-code-changelog.git ~/.claude/skills/claude-code-changelog
 ```
-
-### 方法四：手动下载
-
-1. 访问 [Releases 页面](https://github.com/xupeng/claude-code-changelog/releases)
-2. 下载最新的 `claude-code-changelog.skill` 文件
-3. 放置到以下任一位置：
-   - `~/.claude/skills/` - 全局技能目录（所有项目可用）
-   - `.claude/skills/` - 项目级技能目录（仅当前项目可用）
 
 ### 验证安装
 
