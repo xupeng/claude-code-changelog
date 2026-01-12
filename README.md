@@ -11,20 +11,30 @@
 
 ## 安装
 
-### 方法一：一键安装（推荐）
+### 方法一：自然语言安装（最简单）
+
+在 Claude Code 中直接输入：
+
+```
+在当前项目目录下安装这个 skill： https://github.com/xupeng/claude-code-changelog，skill 的名字叫 claude-code-changelog
+```
+
+Claude Code 会自动克隆仓库到项目的 `.claude/skills/` 目录。
+
+### 方法二：一键安装
 
 ```bash
 # 下载并安装到全局技能目录
 curl -L https://github.com/xupeng/claude-code-changelog/releases/latest/download/claude-code-changelog.skill -o ~/.claude/skills/claude-code-changelog.skill
 ```
 
-### 方法二：克隆仓库
+### 方法三：克隆仓库
 
 ```bash
 git clone https://github.com/xupeng/claude-code-changelog.git ~/.claude/skills/claude-code-changelog
 ```
 
-### 方法三：手动下载
+### 方法四：手动下载
 
 1. 访问 [Releases 页面](https://github.com/xupeng/claude-code-changelog/releases)
 2. 下载最新的 `claude-code-changelog.skill` 文件
