@@ -50,6 +50,16 @@ Claude Code 2.1.3 有什么更新？
 "2.1.3 是什么时候发布的？"
 ```
 
+## 显式调用（v2.1.3+ 新功能）
+
+从 Claude Code v2.1.3 开始，slash commands 和 skills 已合并，可以直接显式调用：
+
+```
+/claude-code-changelog 2.1.3 都更新了什么？
+```
+
+这种调用方式可以明确指定使用该 skill，避免与其他类似功能的混淆。
+
 ## 数据源
 
 - **单版本查询**: GitHub Releases 页面（包含发布日期和完整说明）
