@@ -11,7 +11,15 @@
 
 ## 安装
 
-### 方法一：自然语言安装（最简单）
+### 方法一：使用 skills 命令安装（推荐）
+
+在终端中运行：
+
+```bash
+npx skills add xupeng/claude-code-changelog
+```
+
+### 方法二：自然语言安装
 
 在 Claude Code 中直接输入：
 
@@ -21,7 +29,7 @@
 
 Claude Code 会自动克隆仓库到项目的 `.claude/skills/` 目录。
 
-### 方法二：克隆仓库
+### 方法三：克隆仓库
 
 ```bash
 git clone https://github.com/xupeng/claude-code-changelog.git ~/.claude/skills/claude-code-changelog
